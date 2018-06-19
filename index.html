@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <link rel="stylesheet" href="style.css">
+   <title>Materialize</title>
+</head>
+<body>
+   
+    <nav>
+        <div class="container">
+        <div class="nav-wrapper">
+         <a href="#" class="brand-logo">Karthick</a>
+         <a href=""  data-target="navbar-mob" class="sidenav-trigger">
+             <i class="material-icons">menu</i>
+         </a>     
+
+         <ul class="hide-on-med-and-down right">
+             <li><a href="#">Home</a></li>
+             <li><a href="#services">About Me</a></li>
+             <li><a href="#products">Products</a></li>
+             <li><a href="#contact">Contact Me</a></li>
+         </ul>
+ 
+
+        </div>
+</div>
+
+
+    </nav>
+    <ul class="sidenav" id="navbar-mob">
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">About Me</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        
+
+        <div class="fixed-action-btn">
+            <a href="#" class="btn-floating btn-large waves-effect r
+            ed waves-teal">
+                <i class="material-icons">add</i>
+            </a>
+            <ul>
+                    <li><a href="#home" class="btn-floating red"><i class="material-icons">link</i></a></li>
+                    <li><a href="#services" class="btn-floating yellow darken-1"><i class="material-icons">link</i></a></li>
+                    <li><a href="#products" class="btn-floating green"><i class="material-icons">link</i></a></li>
+                    <li><a href="#contact" class="btn-floating blue"><i class="material-icons">link</i></a></li>
+                  </ul>
+                
+        </div>
+        <section id="Home">
+              <div class="container center"> <br>
+                  <h1 class="teal-text">Karthick</h1>
+                  <h1 class="white-text">Full Stack Developer</h1>
+                  <div class="white" style="opacity: 0.6;"> <br>
+                  <h5 class="red-text accent-2">I am a full stack web developer specializing in Javascript development/React with Node.js and also in Python. I develop PWAs and also have interest in AI and Neural networks.</h5>
+             <br></div>
+                </div>
+                                
+            </section>
+
+            <section style="margin-top:25px;">
+                
+                <div class="container">
+
+                        <h1 class="center">My Job</h1>
+                    <div class="center">
+                        <div class="container">
+                    <div class="progress">
+                            <div class="indeterminate"></div>
+                        </div>
+                        </div>
+                        <h2 class="center" style="margin-top: 30px;">Developing Softwares with possibly Brand new and trending Technologies!.</h2>
+                        <p class="center">I love Technoligies and for me Life Long learning is Fun!!</p>
+
+
+
+                    </div>
+                              </div>
+            </section>
+
+
+            <section id="services" class="black lighten-5 white-text" style="margin-top:50px;">
+                <div class="container class1 lighten-5">   
+                <br><h3 class="center">Who Am I</h3>
+                <div class="container">
+                <div class="center">
+                        <div class="progress">
+                                <div class="indeterminate"></div>
+                            </div>
+                            </div>
+                            <h4 align='justify'>I develop Web applications and have my interests stride over to chatbots now. I have a knack for delivering quality products. I develop progressive web apps which offer services of a native mobile app with offline functionality and an eye catching design.</h4>
+                      <br>      </div>
+                </div> 
+            </section>
+            <section id="products" class="center teal lighten-1 white-text" style="margin-top:50px; margin-bottom: 50px;">
+                    <br><h2>My Projects</h2>
+                    <div class="container">    
+                    <div class="progress">
+                        <div class="indeterminate"></div>
+                    </div>      </div> <br>
+                  
+<center>                    <img class="materialboxed" width="650" src="https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+</center>
+  <h6 class="pulse">Lector - A Social Media PWA App(comming soon).</h6> <br>
+
+            </section>
+
+            <footer class="page-footer orange">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col l6 s12">
+                          <h5 class="white-text">Meet Me!</h5>
+                          <p class="grey-text text-lighten-4"> Let's Talk! contact me: &nbsp; Ph:8508458284
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                          <h5 class="white-text">Links</h5>
+                          <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Connect with me in FB</a></li>
+  
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="footer-copyright">
+                      <div class="container">
+                      © copyrights Karthick
+                      </div>
+                    </div>
+                  </footer>
+                      
+
+            
+                
+              
+
+    <!-- js -->
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        
+      <script src="app.js"></script>
+      <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.fixed-action-btn').floatingActionButton();
+        $('.materialboxed').materialbox();
+
+   
+  });
+  
+
+      
+      </script>
+</body>
+</html>

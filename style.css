@@ -1,0 +1,14 @@
+#Home{
+height: 600px;
+    background: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.overlay{
+    opacity: 0.6;
+}
+#services{
+    background: url('https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+}
+.class1{
+    background: black;
+    opacity: 0.6;
+}
